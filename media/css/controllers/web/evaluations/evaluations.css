@@ -1,0 +1,19 @@
+/* 
+    Document   : evaluations
+    Created on : Feb 8, 2015, 8:47:03 PM
+    Author     : Pato
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+.line{
+    border-bottom: 5px;
+}
+
+.category{
+    text-align: left;
+    color: white;
+}

@@ -1,0 +1,188 @@
+/* line 42, ../../sass/template/theme.scss */
+.black-bg {
+  background: white;
+  border-bottom: 3px solid #002c6a;
+}
+/* line 45, ../../sass/template/theme.scss */
+.black-bg a.logo {
+  margin-top: 0px;
+}
+/* line 47, ../../sass/template/theme.scss */
+.black-bg a.logo #logo-main {
+  height: 60px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+/* line 55, ../../sass/template/theme.scss */
+.sidebar-toggle-box .fa-bars {
+  margin-top: 10px;
+}
+
+/* line 59, ../../sass/template/theme.scss */
+.notify-row {
+  margin-top: 30px;
+}
+
+/* line 63, ../../sass/template/theme.scss */
+#container > header > div.top-menu > ul > li > a {
+  background: #f49b20;
+  border: 1px solid #002c6a !important;
+}
+/* line 67, ../../sass/template/theme.scss */
+#container > header > div.top-menu > ul > li > a:hover {
+  background: #002c6a !important;
+  color: #f49b20 !important;
+  border: 1px solid #f49b20 !important;
+}
+
+/* line 73, ../../sass/template/theme.scss */
+.bg-theme {
+  background-color: #f49b20;
+}
+
+/* line 77, ../../sass/template/theme.scss */
+#sidebar {
+  background-color: #002c6a;
+  border-right: 3px solid white;
+}
+/* line 80, ../../sass/template/theme.scss */
+#sidebar h5 {
+  color: white;
+}
+
+/* line 86, ../../sass/template/theme.scss */
+#nav-accordion > li > a {
+  color: white;
+  font-size: 1.1em;
+}
+
+/* line 93, ../../sass/template/theme.scss */
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
+  background-color: #f49b20;
+  color: #002c6a;
+}
+
+/* line 98, ../../sass/template/theme.scss */
+ul.sidebar-menu li ul.sub li.active a {
+  color: white;
+  font-size: 1em;
+}
+
+/* line 102, ../../sass/template/theme.scss */
+#main-content {
+  margin-left: 180px;
+  background-color: #f49b20;
+  color: #002c6a;
+  font-size: 1.1em;
+  font-family: arial;
+}
+
+/* line 110, ../../sass/template/theme.scss */
+td {
+  color: black;
+  font-size: 1.1em -0.3em;
+  font-family: arial;
+}
+/* line 114, ../../sass/template/theme.scss */
+td a {
+  color: #002c6a;
+  font-family: arial;
+}
+
+/* line 120, ../../sass/template/theme.scss */
+th {
+  font-weight: normal;
+  color: #f49b20;
+  font-family: arial;
+}
+
+/* line 126, ../../sass/template/theme.scss */
+#container > footer {
+  background-color: #002c6a;
+}
+
+/* line 130, ../../sass/template/theme.scss */
+a {
+  color: #002c6a;
+  font-family: arial;
+}
+/* line 132, ../../sass/template/theme.scss */
+a:hover {
+  color: #f49b20;
+}
+
+/* line 138, ../../sass/template/theme.scss */
+::selection {
+  background: #f49b20;
+}
+
+/* line 142, ../../sass/template/theme.scss */
+div.side-bar-icon {
+  text-align: center;
+}
+/* line 143, ../../sass/template/theme.scss */
+div.side-bar-icon i.fa {
+  font-size: 2.2em;
+}
+
+/* line 149, ../../sass/template/theme.scss */
+.side-bar-text {
+  text-align: center;
+}
+
+/* line 153, ../../sass/template/theme.scss */
+#sidebar {
+  width: 180px;
+}
+/* line 156, ../../sass/template/theme.scss */
+#sidebar li.mt {
+  margin-top: 30px;
+}
+/* line 159, ../../sass/template/theme.scss */
+#sidebar li.sub-menu {
+  margin-top: 20px;
+}
+
+/* line 169, ../../sass/template/theme.scss */
+#login-page div .form-login h2 {
+  background-color: #002c6a;
+}
+/* line 173, ../../sass/template/theme.scss */
+#login-page div .form-login div.login-wrap button {
+  background-color: #002c6a;
+}
+
+/* line 181, ../../sass/template/theme.scss */
+.white-panel {
+  background-color: white;
+  color: #f49b20;
+}
+/* line 184, ../../sass/template/theme.scss */
+.white-panel .white-header {
+  background: #002c6a !important;
+  color: white;
+  font-weight: bold;
+}
+/* line 190, ../../sass/template/theme.scss */
+.white-panel a {
+  color: #002c6a;
+}
+/* line 195, ../../sass/template/theme.scss */
+.white-panel a:hover {
+  color: #f49b20;
+}
+
+/* line 200, ../../sass/template/theme.scss */
+#top-panel {
+  background: #002c6a;
+  color: white;
+}
+/* line 204, ../../sass/template/theme.scss */
+#top-panel a {
+  color: white;
+}
+/* line 208, ../../sass/template/theme.scss */
+#top-panel a:hover {
+  color: #f49b20;
+}

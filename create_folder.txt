@@ -1,0 +1,9 @@
+Create following files
+
+files/tmp
+files/employee_photo
+files/companies_logo
+
+Set permissions to 757, you can use:
+
+sudo chmod 757 -R files/

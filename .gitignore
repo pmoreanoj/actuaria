@@ -1,0 +1,11 @@
+application/cache/*
+application/logs/*
+
+.sass-cache
+*.css.map
+*.scssc
+*.sql~
+docs/database/*.mwb.bak
+files/*
+
+

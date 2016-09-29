@@ -1,0 +1,211 @@
+@import "compass";
+
+$color1: rgb(141,120,95);
+$color2: rgb(255,196,117);
+$color3: rgb(189,210,235);
+$color4: rgb(0,44,106);
+$color5: rgb(244,155,32);
+$color6: rgb(128,151,181);
+$color7: rgb(248,173,96);
+$color8: rgb(199,139,107);
+$color9: rgb(254,205,131);
+
+$color10: rgb(135,119,96);
+$color11: rgb(96,113,135);
+$color12: rgb(79,45,0);
+$color13: rgb(0,45,106);
+$color14: rgb(243,115,32);
+$color15: rgb(186,139,106);
+$color16: rgb(128,151,181);
+$color17: rgb(106,61,0);
+$color18: rgb(0,33,79);
+
+$lines: 3px;
+
+$anchor_color: $color4;
+$anchor_hover_color:$color5;
+
+$sidebar_color:$color4;
+$sidebar_title: white;
+$sidebar_text:white;
+$sidebar_selected_icon_color: white;
+$sidebar_border_right:white;
+$sidebar_fontsize:1em;
+
+$top_border_bottom: $color4;
+$top_border_color: white;
+
+$main_content_color:$color5;
+$main_content_fontsize:1.1em;
+
+$footer_color: $color4;
+.black-bg{
+    background: $top_border_color;
+    border-bottom: $lines solid $top_border_bottom;
+    a.logo{
+        margin-top: 0px;
+        #logo-main{
+            height: 60px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    }
+}
+
+.sidebar-toggle-box .fa-bars{
+    margin-top: 10px;
+}
+
+.notify-row{
+    margin-top: 30px;
+}
+
+#container > header > div.top-menu > ul > li > a{
+    background: $color5;
+    border: 1px solid $color4 !important;
+
+    &:hover{
+        background: $color4 !important;
+        color: $color5 !important;
+        border: 1px solid $color5 !important;
+    }
+}
+.bg-theme{
+    background-color: $color5;
+}
+
+#sidebar{
+    background-color: $sidebar_color;
+    border-right: $lines solid $sidebar_border_right;
+    h5{
+        color: $sidebar_title;
+    }
+
+}
+
+#nav-accordion > li > a {
+    //#nav-accordion > li.mt > a > span
+    color: $sidebar_text;
+    font-size:1.1em;
+
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus{
+    background-color: $color5;
+    color:$color4;
+}
+
+ul.sidebar-menu li ul.sub li.active a{
+    color:$sidebar_selected_icon_color;
+    font-size:$sidebar_fontsize;
+}
+#main-content{
+    margin-left: 180px;
+    background-color: $main_content_color;
+    color:$color4;
+    font-size: $main_content_fontsize;
+    font-family:arial;
+}
+
+td{
+    color:black;
+    font-size: $main_content_fontsize -0.3em;
+    font-family:arial;
+    a{
+        color:$anchor_color;
+        font-family:arial;
+    }
+}
+
+th{
+    font-weight:normal;
+    color:$anchor_hover_color;
+    font-family:arial;
+}
+
+#container > footer{
+    background-color:$footer_color;
+}
+
+a{
+    color:$anchor_color;
+    &:hover{
+        color:$anchor_hover_color;
+    }
+    font-family:arial;
+}
+
+::selection {
+    background:$anchor_hover_color;
+}
+
+div.side-bar-icon{
+    i.fa {
+        font-size: 2.2em;
+    }
+    text-align: center;
+}
+
+.side-bar-text{
+    text-align: center;
+}
+
+#sidebar{
+    width:180px;
+    li{
+        &.mt{
+            margin-top: 30px;
+        }
+        &.sub-menu{
+            margin-top: 20px;
+        }
+    }
+
+}
+
+#login-page{
+    div{
+        .form-login{
+            h2{
+                background-color: $sidebar_color;
+            }
+            div.login-wrap{
+                button{
+                    background-color: $sidebar_color;
+                }
+            }
+        }
+    }
+}
+
+.white-panel{
+    background-color: white;
+    color: $color5;
+    .white-header{
+        background:$sidebar_color !important;
+        color:white;
+        font-weight: bold;
+    }
+
+    a{
+
+        color: $sidebar_color;
+    }
+
+    a:hover{
+        color:$color5;
+    }
+}
+
+#top-panel{
+    background: $sidebar_color;
+    color:white;
+
+    a{
+        color:white;
+    }
+
+    a:hover{
+        color:$color5;
+    }
+}
